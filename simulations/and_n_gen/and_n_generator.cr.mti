@@ -1,0 +1,17 @@
+D:/altera/simulations/and_n_gen/test_parameter_and.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:\altera\simulations\and_n_gen\test_parameter_and.vhd}
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity test_andN
+-- Compiling architecture sim of test_andN
+
+} {} {}} D:/altera/projects/VHDL_study/and_n_parametrized.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none D:/altera/projects/VHDL_study/and_n_parametrized.vhd
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity andN
+-- Compiling architecture synth of andN
+
+} {} {}}

@@ -1,0 +1,137 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'pin_name3'
+Slack : -2.096
+TNS   : -37.899
+
+Type  : Setup '74193:inst2|26'
+Slack : -0.648
+TNS   : -0.648
+
+Type  : Setup 'lpm_counter0:inst11|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[22]'
+Slack : -0.541
+TNS   : -0.972
+
+Type  : Setup '74193:inst10|26'
+Slack : -0.312
+TNS   : -0.403
+
+Type  : Setup '74193:inst2|23'
+Slack : -0.288
+TNS   : -0.454
+
+Type  : Setup '74193:inst|23'
+Slack : -0.174
+TNS   : -0.174
+
+Type  : Setup '74193:inst2|25'
+Slack : -0.097
+TNS   : -0.097
+
+Type  : Setup '74193:inst|26'
+Slack : 1.481
+TNS   : 0.000
+
+Type  : Setup '74193:inst|25'
+Slack : 2.211
+TNS   : 0.000
+
+Type  : Setup '74193:inst|24'
+Slack : 2.229
+TNS   : 0.000
+
+Type  : Setup 'lpm_counter0:inst11|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[20]'
+Slack : 2.978
+TNS   : 0.000
+
+Type  : Hold 'lpm_counter0:inst11|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[20]'
+Slack : -4.281
+TNS   : -14.071
+
+Type  : Hold '74193:inst|25'
+Slack : -2.252
+TNS   : -4.015
+
+Type  : Hold '74193:inst|26'
+Slack : -2.240
+TNS   : -4.797
+
+Type  : Hold '74193:inst|23'
+Slack : -1.973
+TNS   : -4.724
+
+Type  : Hold 'pin_name3'
+Slack : -1.914
+TNS   : -4.405
+
+Type  : Hold '74193:inst2|25'
+Slack : -1.847
+TNS   : -1.847
+
+Type  : Hold '74193:inst|24'
+Slack : -1.781
+TNS   : -1.781
+
+Type  : Hold '74193:inst2|26'
+Slack : -1.495
+TNS   : -2.792
+
+Type  : Hold 'lpm_counter0:inst11|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[22]'
+Slack : -0.271
+TNS   : -0.271
+
+Type  : Hold '74193:inst10|26'
+Slack : 0.699
+TNS   : 0.000
+
+Type  : Hold '74193:inst2|23'
+Slack : 1.031
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'pin_name3'
+Slack : -1.583
+TNS   : -62.211
+
+Type  : Minimum Pulse Width '74193:inst|23'
+Slack : -1.318
+TNS   : -10.544
+
+Type  : Minimum Pulse Width 'lpm_counter0:inst11|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[20]'
+Slack : -1.318
+TNS   : -10.544
+
+Type  : Minimum Pulse Width '74193:inst2|23'
+Slack : -1.318
+TNS   : -7.908
+
+Type  : Minimum Pulse Width '74193:inst2|26'
+Slack : -1.318
+TNS   : -7.908
+
+Type  : Minimum Pulse Width '74193:inst|26'
+Slack : -1.318
+TNS   : -7.908
+
+Type  : Minimum Pulse Width 'lpm_counter0:inst11|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[22]'
+Slack : -1.318
+TNS   : -7.908
+
+Type  : Minimum Pulse Width '74193:inst10|26'
+Slack : -1.318
+TNS   : -5.272
+
+Type  : Minimum Pulse Width '74193:inst2|25'
+Slack : -1.318
+TNS   : -5.272
+
+Type  : Minimum Pulse Width '74193:inst|25'
+Slack : -1.318
+TNS   : -5.272
+
+Type  : Minimum Pulse Width '74193:inst|24'
+Slack : -1.318
+TNS   : -2.636
+
+------------------------------------------------------------

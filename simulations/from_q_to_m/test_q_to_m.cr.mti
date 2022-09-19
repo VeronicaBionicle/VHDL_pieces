@@ -1,0 +1,17 @@
+D:/altera/projects/from_q_to_m/simulation/modelsim/test.vht {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/altera/projects/from_q_to_m/simulation/modelsim/test.vht
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity test_vhd_tst
+-- Compiling architecture test_arch of test_vhd_tst
+
+} {} {}} D:/altera/projects/from_q_to_m/test.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/altera/projects/from_q_to_m/test.vhd
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity test
+-- Compiling architecture test_and of test
+
+} {} {}}

@@ -1,0 +1,43 @@
+D:/altera/projects/alu_scheme/alu_schematic.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:\altera\projects\alu_scheme\alu_schematic.vhd}
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity alu_schematic
+-- Compiling architecture bdf_type of alu_schematic
+
+} {} {}} D:/altera/projects/alu_scheme/lpm_mux0.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/altera/projects/alu_scheme/lpm_mux0.vhd
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package LPM_COMPONENTS
+-- Compiling entity lpm_mux0
+-- Compiling architecture SYN of lpm_mux0
+
+} {} {}} D:/altera/projects/alu_scheme/lpm_add_sub0.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/altera/projects/alu_scheme/lpm_add_sub0.vhd
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity lpm_add_sub0
+-- Compiling architecture SYN of lpm_add_sub0
+
+} {} {}} D:/altera/projects/alu_scheme/lpm_mux1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/altera/projects/alu_scheme/lpm_mux1.vhd
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package LPM_COMPONENTS
+-- Compiling entity lpm_mux1
+-- Compiling architecture SYN of lpm_mux1
+
+} {} {}} D:/altera/projects/alu_scheme/simulation/modelsim/alu_schematic.vht {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/altera/projects/alu_scheme/simulation/modelsim/alu_schematic.vht
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity alu_schematic_vhd_tst
+-- Compiling architecture alu_schematic_arch of alu_schematic_vhd_tst
+
+} {} {}}

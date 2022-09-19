@@ -1,0 +1,26 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+
+entity testdivider is
+end testdivider;
+
+architecture sim of testdivider is
+component divideby3FSM is
+  port (
+    clk, reset : in STD_LOGIC;
+    y: out STD_LOGIC
+  );
+end component;
+  signal clk, reset, y: STD_LOGIC;
+begin
+  dut: divideby3FSM port map(clk, reset, y);
+  -- generate clock
+  process begin
+    clk <= '1'; wait for 5 ns;
+    clk <= '0'; wait for 5 ns;
+  end process;
+  -- reset before start and waiting
+  process begin
+    reset <= '1'; wait for 27 ns; reset <= '0';
+    wait;
+  end process;
+end sim;

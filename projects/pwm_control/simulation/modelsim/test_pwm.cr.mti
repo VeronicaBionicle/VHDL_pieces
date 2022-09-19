@@ -1,0 +1,45 @@
+D:/altera/projects/pwm_control/pwm_controller.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:\altera\projects\pwm_control\pwm_controller.vhd}
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity pwm_controller
+-- Compiling architecture bdf_type of pwm_controller
+
+} {} {}} D:/altera/projects/pwm_control/frequency_block.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/altera/projects/pwm_control/frequency_block.vhd
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity frequency_block
+-- Compiling architecture Behaviroral of frequency_block
+
+} {} {}} D:/altera/projects/pwm_control/sawtooth_breaker.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/altera/projects/pwm_control/sawtooth_breaker.vhd
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity sawtooth_breaker
+-- Compiling architecture Behavioral of sawtooth_breaker
+
+} {} {}} D:/altera/projects/pwm_control/sawtooth.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/altera/projects/pwm_control/sawtooth.vhd
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sawtooth
+-- Compiling architecture SYN of sawtooth
+
+} {} {}} D:/altera/projects/pwm_control/meandr_counter.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/altera/projects/pwm_control/meandr_counter.vhd
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity meandr_counter
+-- Compiling architecture SYN of meandr_counter
+
+} {} {}}

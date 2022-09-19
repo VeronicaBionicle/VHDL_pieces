@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="pwm_controller">
+		<CBX_INST_ENTRY INSTANCE_NAME="|pwm_controller|frequency_block:b2v_frequency_counter_inst|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_j8m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|pwm_controller|comparator:b2v_comparator_inst|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_heg.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|pwm_controller|frequency_block:b2v_frequency_counter_inst|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_8mo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|pwm_controller|meandr_counter:b2v_meander_inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_ihi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|pwm_controller|sawtooth:b2v_saw_inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_rsh.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

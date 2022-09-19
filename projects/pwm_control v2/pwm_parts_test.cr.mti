@@ -1,0 +1,59 @@
+{D:/altera/projects/pwm_control v2/comparator.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {D:/altera/projects/pwm_control v2/comparator.vhd}
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity comparator
+-- Compiling architecture SYN of comparator
+
+} {} {}} {D:/altera/projects/pwm_control v2/frequency_block.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:\altera\projects\pwm_control v2\frequency_block.vhd}
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity frequency_block
+-- Compiling architecture Behaviroral of frequency_block
+
+} {} {}} {D:/altera/projects/pwm_control v2/pwm_control.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {D:/altera/projects/pwm_control v2/pwm_control.vhd}
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity pwm_control
+-- Compiling architecture SYNTH of pwm_control
+
+} {} {}} {D:/altera/projects/pwm_control v2/sawtooth.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {D:/altera/projects/pwm_control v2/sawtooth.vhd}
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity sawtooth
+-- Compiling architecture SYN of sawtooth
+
+} {} {}} {D:/altera/projects/pwm_control v2/meandr_counter.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {D:\altera\projects\pwm_control v2\meandr_counter.vhd}
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity meandr_counter
+-- Compiling architecture SYN of meandr_counter
+
+} {} {}} {D:/altera/projects/pwm_control v2/test_meander_counter.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:\altera\projects\pwm_control v2\test_meander_counter.vhd}
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity test_meander_counter
+-- Compiling architecture sim of test_meander_counter
+
+} {} {}}

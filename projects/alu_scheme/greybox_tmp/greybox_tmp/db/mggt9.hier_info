@@ -1,0 +1,68 @@
+|mggt9
+data[0] => data[0].IN1
+data[1] => data[1].IN1
+data[2] => data[2].IN1
+data[3] => data[3].IN1
+data[4] => data[4].IN1
+data[5] => data[5].IN1
+data[6] => data[6].IN1
+data[7] => data[7].IN1
+sel[0] => sel[0].IN1
+sel[1] => sel[1].IN1
+sel[2] => sel[2].IN1
+
+
+|mggt9|lpm_mux:mgl_prim1
+data[0][0] => mux_bfc:auto_generated.data[0]
+data[1][0] => mux_bfc:auto_generated.data[1]
+data[2][0] => mux_bfc:auto_generated.data[2]
+data[3][0] => mux_bfc:auto_generated.data[3]
+data[4][0] => mux_bfc:auto_generated.data[4]
+data[5][0] => mux_bfc:auto_generated.data[5]
+data[6][0] => mux_bfc:auto_generated.data[6]
+data[7][0] => mux_bfc:auto_generated.data[7]
+sel[0] => mux_bfc:auto_generated.sel[0]
+sel[1] => mux_bfc:auto_generated.sel[1]
+sel[2] => mux_bfc:auto_generated.sel[2]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+
+
+|mggt9|lpm_mux:mgl_prim1|mux_bfc:auto_generated
+data[0] => _.IN0
+data[0] => _.IN0
+data[1] => _.IN0
+data[2] => _.IN1
+data[2] => _.IN1
+data[3] => _.IN0
+data[4] => _.IN0
+data[4] => _.IN0
+data[5] => _.IN0
+data[6] => _.IN1
+data[6] => _.IN1
+data[7] => _.IN0
+sel[0] => _.IN1
+sel[0] => _.IN0
+sel[0] => _.IN0
+sel[0] => _.IN0
+sel[0] => _.IN0
+sel[0] => _.IN0
+sel[0] => _.IN1
+sel[0] => _.IN0
+sel[0] => _.IN0
+sel[0] => _.IN0
+sel[0] => _.IN0
+sel[0] => _.IN0
+sel[1] => _.IN0
+sel[1] => _.IN0
+sel[1] => _.IN0
+sel[1] => _.IN0
+sel[1] => _.IN0
+sel[1] => _.IN0
+sel[1] => _.IN0
+sel[1] => _.IN0
+sel[2] => result_node[0].IN0
+sel[2] => _.IN0
+
+

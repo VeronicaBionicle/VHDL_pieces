@@ -1,0 +1,114 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.STD_LOGIC_TEXTIO.ALL; use STD.TEXTIO.all; 
+use IEEE.NUMERIC_STD.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity testbenchauto is
+end testbenchauto;
+
+architecture sim of testbenchauto is
+component alu_kp is
+  port (
+    a, b : in STD_LOGIC_VECTOR(7 downto 0);	-- входные операнды
+    operation_code : in STD_LOGIC_VECTOR(2 downto 0); -- код команды
+    y : out STD_LOGIC_VECTOR(7 downto 0); -- результат
+    carry_flag : out STD_LOGIC -- выход переноса
+  );
+  end component;
+
+  signal a, b: STD_LOGIC_VECTOR(7 downto 0);
+  signal operation_code : STD_LOGIC_VECTOR(2 downto 0);
+  signal y: STD_LOGIC_VECTOR(7 downto 0);
+  signal carry_flag : STD_LOGIC;
+  signal clk : STD_LOGIC;
+
+  constant operations : String(1 to 8) := "+-<>!&|^";
+ 
+begin
+  --init component
+  dut: alu_kp port map(a, b, operation_code, y, carry_flag);
+  -- generate clock
+  process begin
+    clk <= '1'; wait for 5 ns;
+    clk <= '0'; wait for 5 ns;
+  end process;
+  -- run tests
+  process is
+    file tv: text; 
+    file out_file : text;
+    variable info_row : line;
+    variable L: line; 
+    variable operation_code_in : std_logic_vector(2 downto 0);
+    variable vector_A_in, vector_B_in: std_logic_vector(7 downto 0);
+    variable y_expected: std_logic_vector(7 downto 0);
+    variable carry_flag_expected: std_logic; 
+    variable dummy: character; 	--for jumping over char '_'
+    variable vectornum: integer := 0; 
+    variable errors: integer := 0;
+  begin
+    FILE_OPEN(tv, "D:\altera\simulations\alu_kp\test_data.tv", READ_MODE); 
+    FILE_OPEN(out_file, "D:\altera\simulations\alu_kp\test_results.txt", WRITE_MODE); 
+    while not endfile(tv) loop 
+    -- change vectors on rising edge 
+    wait until rising_edge(clk);
+
+    -- read the next line of testvectors and split into pieces 
+    readline(tv, L); 
+    read(L, operation_code_in); --read operation
+    read(L, dummy); -- skip over underscore 
+    read(L, vector_A_in); 	--read a
+    read(L, dummy); -- skip over underscore 
+    read(L, vector_B_in);	--read b
+    read(L, dummy); -- skip over underscore 
+    read(L, y_expected); -- read right y
+    read(L, dummy);
+    read(L, carry_flag_expected);
+
+    operation_code <= operation_code_in after 1 ns; 
+    a <= vector_A_in after 1 ns; 
+    b <= vector_B_in after 1 ns; 
+    --y_expected <= vector_y after 1 ns;
+    --carry_flag_expected <= carry_flag_out after 1 ns;
+
+    -- -- check results on falling edge 
+    wait until falling_edge(clk);
+	report "Line = " & integer'image(vectornum) & " -> " & integer'image(to_integer(unsigned(vector_A_in))) & operations(to_integer(unsigned(operation_code))+1) &
+	integer'image(to_integer(unsigned(b))) & " = " & integer'image(to_integer(unsigned(y)))& ", carry = " & std_logic'image(carry_flag);
+
+        write(info_row, "Line = " & integer'image(vectornum) & " -> " & integer'image(to_integer(unsigned(a))) & operations(to_integer(unsigned(operation_code))+1) &
+	integer'image(to_integer(unsigned(b))) & " = " & integer'image(to_integer(unsigned(y)))& ", carry = " & std_logic'image(carry_flag) );
+	writeline(out_file, info_row );
+    if y /= y_expected then 
+       report "Error: y = " & integer'image(to_integer(unsigned(y))) & "! expected " & integer'image(to_integer(unsigned(y_expected)));
+       write(info_row, "Error: y = " & integer'image(to_integer(unsigned(y))) & "! expected " & integer'image(to_integer(unsigned(y_expected))));
+       writeline(out_file, info_row );
+       errors := errors + 1;
+    elsif carry_flag /= carry_flag_expected then
+      report "Error: carry flag = " & std_logic'image(carry_flag) & "! expected " & std_logic'image(carry_flag_expected);
+      write(info_row, "Error: carry flag = " & std_logic'image(carry_flag) & "! expected " & std_logic'image(carry_flag_expected));
+      writeline(out_file, info_row );
+      errors := errors + 1;
+     end if; 
+     vectornum := vectornum + 1; 
+   end loop; 
+   -- summarize results at end of simulation 
+   if (errors = 0) then
+      write(info_row, "NO ERRORS -- " & integer'image(vectornum) & " tests completed successfully.");
+      writeline(out_file, info_row ); 
+    report "NO ERRORS -- " & integer'image(vectornum) & " tests completed successfully." 
+           severity failure; 
+
+  else 
+      write(info_row, integer'image(vectornum) & " tests completed, errors = " & integer'image(errors));
+      writeline(out_file, info_row );
+    report integer'image(vectornum) & " tests completed, errors = " & integer'image(errors) 
+           severity failure; 
+
+  end if;
+
+    file_close(tv);
+    file_close(out_file);
+
+  end process;
+end sim; 

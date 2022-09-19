@@ -1,0 +1,96 @@
+|Block2
+S4 => lpm_mult0:inst.dataa[0]
+S3 => lpm_mult0:inst.dataa[1]
+S2 => lpm_mult0:inst.dataa[2]
+S1 => lpm_mult0:inst.dataa[3]
+S8 => lpm_mult0:inst.datab[0]
+S7 => lpm_mult0:inst.datab[1]
+S6 => lpm_mult0:inst.datab[2]
+S5 => lpm_mult0:inst.datab[3]
+
+
+|Block2|lpm_mult0:inst
+dataa[0] => lpm_mult:lpm_mult_component.dataa[0]
+dataa[1] => lpm_mult:lpm_mult_component.dataa[1]
+dataa[2] => lpm_mult:lpm_mult_component.dataa[2]
+dataa[3] => lpm_mult:lpm_mult_component.dataa[3]
+datab[0] => lpm_mult:lpm_mult_component.datab[0]
+datab[1] => lpm_mult:lpm_mult_component.datab[1]
+datab[2] => lpm_mult:lpm_mult_component.datab[2]
+datab[3] => lpm_mult:lpm_mult_component.datab[3]
+
+
+|Block2|lpm_mult0:inst|lpm_mult:lpm_mult_component
+dataa[0] => mult_1vm:auto_generated.dataa[0]
+dataa[1] => mult_1vm:auto_generated.dataa[1]
+dataa[2] => mult_1vm:auto_generated.dataa[2]
+dataa[3] => mult_1vm:auto_generated.dataa[3]
+datab[0] => mult_1vm:auto_generated.datab[0]
+datab[1] => mult_1vm:auto_generated.datab[1]
+datab[2] => mult_1vm:auto_generated.datab[2]
+datab[3] => mult_1vm:auto_generated.datab[3]
+sum[0] => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+
+
+|Block2|lpm_mult0:inst|lpm_mult:lpm_mult_component|mult_1vm:auto_generated
+dataa[0] => _.IN0
+dataa[0] => _.IN0
+dataa[0] => _.IN0
+dataa[0] => _.IN0
+dataa[0] => _.IN0
+dataa[0] => _.IN0
+dataa[0] => _.IN1
+dataa[0] => le5a[0].IN1
+dataa[1] => _.IN0
+dataa[1] => _.IN0
+dataa[1] => _.IN0
+dataa[1] => _.IN0
+dataa[1] => _.IN0
+dataa[1] => _.IN0
+dataa[1] => _.IN1
+dataa[1] => _.IN1
+dataa[2] => _.IN0
+dataa[2] => _.IN0
+dataa[2] => _.IN0
+dataa[2] => _.IN0
+dataa[2] => _.IN0
+dataa[2] => _.IN0
+dataa[2] => _.IN1
+dataa[2] => _.IN1
+dataa[3] => _.IN0
+dataa[3] => _.IN0
+dataa[3] => _.IN0
+dataa[3] => _.IN0
+dataa[3] => _.IN0
+dataa[3] => _.IN0
+dataa[3] => le5a[4].IN1
+dataa[3] => _.IN1
+datab[0] => cs2a[0].SUM_IN
+datab[1] => cs1a[0].SUM_IN
+datab[1] => cs1a[0].CIN
+datab[1] => cs2a[0].CIN
+datab[2] => _.IN0
+datab[2] => _.IN1
+datab[2] => _.IN1
+datab[2] => _.IN0
+datab[2] => _.IN0
+datab[2] => _.IN0
+datab[2] => _.IN0
+datab[2] => _.IN1
+datab[2] => _.IN1
+datab[2] => _.IN0
+datab[3] => cs1a[1].IN1
+datab[3] => _.IN0
+datab[3] => _.IN0
+datab[3] => _.IN0
+datab[3] => _.IN0
+datab[3] => cs2a[1].IN1
+datab[3] => _.IN0
+datab[3] => _.IN0
+datab[3] => _.IN0
+datab[3] => _.IN0
+
+

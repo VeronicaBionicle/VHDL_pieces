@@ -1,0 +1,67 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/altera/projects/alu_scheme/simulation
+T_opt
+!s110 1613270115
+Vjl^?>8PGYoa6O?NXXHnhO0
+Z1 04 13 8 work decoder_hex_7 bdf_type 1
+=1-e0cb4e41f37e-60288c61-36a-11b4
+Z2 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z3 OL;O;10.4;61
+R0
+T_opt1
+!s110 1613278047
+VM;BPbdF7W]6PS?YXlQO_L2
+R1
+=1-e0cb4e41f37e-6028ab5e-3ad-1404
+R2
+n@_opt1
+R3
+R0
+Edecoder_hex_7
+Z4 w1613286710
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 dD:/altera/projects/decoder_hex_7/simulation
+Z8 8D:/altera/projects/decoder_hex_7/decoder_hex_7.vhd
+Z9 FD:/altera/projects/decoder_hex_7/decoder_hex_7.vhd
+l0
+L24
+V>27;fQoMRFmN<YPzaocTR0
+!s100 <Y66gXD333HIEFll@6^k93
+Z10 OL;C;10.4;61
+32
+Z11 !s110 1613558924
+!i10b 1
+Z12 !s108 1613558924.326000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/projects/decoder_hex_7/decoder_hex_7.vhd|
+Z14 !s107 D:/altera/projects/decoder_hex_7/decoder_hex_7.vhd|
+!i113 0
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1
+Abdf_type
+R5
+R6
+Z17 DEx4 work 13 decoder_hex_7 0 22 >27;fQoMRFmN<YPzaocTR0
+l91
+L41
+Z18 V6@MK9jX<[KnnMNzE9C7io1
+Z19 !s100 0GkUV`UMD0VojMeCS49n13
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16

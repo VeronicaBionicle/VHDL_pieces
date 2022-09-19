@@ -1,0 +1,135 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/altera/simulations
+T_opt
+!s110 1602429128
+VD_;K3:Uf3IJKXz=J<QiM12
+04 15 4 work snail_testbench test 1
+=1-e0cb4e41f37e-5f8320c8-45-16b0
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4;61
+Epatternmealy
+Z0 w1602122255
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dD:/altera/simulations/snail_01_test
+Z4 8D:/altera/projects/VHDL_study/pattern_Mealy.vhd
+Z5 FD:/altera/projects/VHDL_study/pattern_Mealy.vhd
+l0
+L5
+V^zCjLCRm<R?VLBkGc<^a71
+!s100 D`lNN9@c54G0OXI4V2i?42
+Z6 OL;C;10.4;61
+33
+Z7 !s110 1602429048
+!i10b 1
+Z8 !s108 1602429048.894000
+Z9 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|D:/altera/projects/VHDL_study/pattern_Mealy.vhd|
+Z10 !s107 D:/altera/projects/VHDL_study/pattern_Mealy.vhd|
+!i113 0
+Z11 o-work work -2008 -explicit
+Z12 tExplicit 1
+Asynth
+R1
+R2
+DEx4 work 12 patternmealy 0 22 ^zCjLCRm<R?VLBkGc<^a71
+l16
+L13
+Vi94D=ZXJz;M1Nk]iN:hEe3
+!s100 :mZd?i`Zkh2VM4RSZVCFn3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Epatternmoore
+Z13 w1602428127
+R1
+R2
+R3
+Z14 8D:/altera/projects/VHDL_study/pattern_Moore.vhd
+Z15 FD:/altera/projects/VHDL_study/pattern_Moore.vhd
+l0
+L5
+V_e`lBzdARNJRYhdeXO73C0
+!s100 <9jOIdmE>K4Q08<`J<n_G2
+R6
+33
+Z16 !s110 1602428166
+!i10b 1
+Z17 !s108 1602428166.115000
+Z18 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|D:/altera/projects/VHDL_study/pattern_Moore.vhd|
+Z19 !s107 D:/altera/projects/VHDL_study/pattern_Moore.vhd|
+!i113 0
+R11
+R12
+Asynth
+R1
+R2
+DEx4 work 12 patternmoore 0 22 _e`lBzdARNJRYhdeXO73C0
+l16
+L13
+VQ=Y@GaW^DTd2dK]gMjk160
+!s100 ]^2o[RmY3JZ1IWR9Ti?on2
+R6
+33
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R11
+R12
+Esnail_testbench
+Z20 w1602429117
+R1
+R2
+R3
+Z21 8D:/altera/simulations/snail_01_test/snail_test_bench.vhd
+Z22 FD:/altera/simulations/snail_01_test/snail_test_bench.vhd
+l0
+L3
+V4eSBI6Gzb?>93>85j^jze3
+!s100 _bBXUgGU5A]Cf<ShXW^KM3
+R6
+33
+Z23 !s110 1602429118
+!i10b 1
+Z24 !s108 1602429118.744000
+Z25 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|D:/altera/simulations/snail_01_test/snail_test_bench.vhd|
+Z26 !s107 D:/altera/simulations/snail_01_test/snail_test_bench.vhd|
+!i113 0
+R11
+R12
+Atest
+R1
+R2
+DEx4 work 15 snail_testbench 0 22 4eSBI6Gzb?>93>85j^jze3
+l15
+L6
+VG>IE`VIZ0Bf^ElFB7PKZX0
+!s100 F15lk2WbAj[bNCndkRHHJ2
+R6
+33
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R11
+R12

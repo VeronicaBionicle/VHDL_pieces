@@ -1,0 +1,61 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.numeric_std.all;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity alu_kp is
+  port (
+    	 a, b 		: in STD_LOGIC_VECTOR(7 downto 0);	
+	 operation_code : in STD_LOGIC_VECTOR(2 downto 0); 
+	 y 		: out STD_LOGIC_VECTOR(7 downto 0);
+	 carry_flag 	: out STD_LOGIC
+  );
+end alu_kp;
+
+architecture synth of alu_kp is
+	subtype OP_CODE is STD_LOGIC_VECTOR(2 downto 0);
+	constant ADD 			: OP_CODE := "000";
+	constant SUB 			: OP_CODE := "001";
+	constant SAL 			: OP_CODE := "010";
+	constant SAR 			: OP_CODE := "011";
+	constant INV 			: OP_CODE := "100";
+	constant BITWISE_AND : OP_CODE := "101";
+	constant BITWISE_OR 	: OP_CODE := "110";
+	constant BITWISE_XOR : OP_CODE := "111";
+begin
+	process (all)
+		variable result : STD_LOGIC_VECTOR (8 downto 0);	
+	begin
+		case operation_code is
+			when ADD =>
+				result := ('0' & a)+('0' & b);
+				y <= result(7 downto 0);
+				carry_flag <= result(8); 
+			when SUB =>
+				result := ('0' & a)-('0' & b);
+				y <= result(7 downto 0);
+				carry_flag <= result(8); 
+			when SAL =>
+				y <= SHL(a, "1");
+				carry_flag <= a(7);	
+			when SAR =>
+				y <= SHR(a, "1");
+				carry_flag <= a(0);
+			when INV =>
+				y <= not a;	
+				carry_flag <= '0'; 
+			when BITWISE_AND =>
+				y <= a and b;	
+				carry_flag <= '0'; 
+			when BITWISE_OR =>
+				y <= a or b;	
+				carry_flag <= '0'; 
+			when BITWISE_XOR =>
+				y <= a xor b;	
+				carry_flag <= '0'; 
+			when others =>
+				y <= ( others => 'Z'); 
+				carry_flag <= 'Z'; 
+    end case; 
+  end process;
+end synth; 

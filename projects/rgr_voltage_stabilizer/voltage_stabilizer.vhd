@@ -1,0 +1,81 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+
+entity voltage_stabilizer is
+  port(
+    clk, reset : in STD_LOGIC;
+    bypass, is_low, is_high : in STD_LOGIC;
+    y: out STD_LOGIC_VECTOR(6 downto 0)
+  );
+end voltage_stabilizer;
+
+architecture synth of voltage_stabilizer is
+  type statetype is (S0, S1, S2, S3, S4, S5, S6);
+  signal state, nextstate: statetype;
+begin
+  --reset and synchro
+  process (clk, reset) begin
+    if reset then state <= S3;	--go to bypass
+    elsif rising_edge(clk) then state <= nextstate;
+    end if;
+  end process;
+-- change states
+process (all) begin
+    case state is
+      when S0 => 
+	if bypass then nextstate <= S3;
+        elsif is_low and not is_high then nextstate <= S1;
+	else nextstate <= S0;
+        end if;
+      when S1 =>
+	if bypass then nextstate <= S3;
+        elsif is_low and not is_high then nextstate <= S2;
+	elsif is_high and not is_low then nextstate <= S0;
+	else nextstate <= S1;
+        end if;
+      when S2 =>
+	if (bypass or (is_low and not is_high)) then nextstate <= S3;
+	elsif is_high and not is_low then nextstate <= S1;
+	else nextstate <= S2;
+        end if;
+      when S3 =>
+	if bypass then nextstate <= S3;
+        elsif is_low and not is_high then nextstate <= S4;
+	elsif is_high and not is_low then nextstate <= S2;
+	else nextstate <= S3;
+        end if;
+      when S4 =>
+	if bypass then nextstate <= S3;
+        elsif is_low and not is_high then nextstate <= S5;
+	elsif is_high and not is_low then nextstate <= S3;
+	else nextstate <= S4;
+        end if;
+      when S5 =>
+	if bypass then nextstate <= S3;
+        elsif is_low and not is_high then nextstate <= S6;
+	elsif is_high and not is_low then nextstate <= S4;
+	else nextstate <= S5;
+        end if;
+      when S6 =>
+	if bypass then nextstate <= S3;
+	elsif is_high and not is_low then nextstate <= S5;
+	else nextstate <= S6;
+        end if;
+      when others =>
+        nextstate <= S3;--bypass?
+    end case;
+  end process;
+
+--decoder
+process (all) begin
+case state is
+      when S0 => y <= "0000001";
+      when S1 => y <= "0000010";
+      when S2 => y <= "0000100";
+      when S3 => y <= "0001000";
+      when S4 => y <= "0010000";
+      when S5 => y <= "0100000";
+      when S6 => y <= "1000000";
+      when others => y <= "XXXXXXX"; -- in simulation if a = 'x', 'u' or 'z'
+    end case;  
+end process;
+end synth;

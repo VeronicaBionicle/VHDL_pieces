@@ -1,0 +1,97 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/altera/projects/rgr_voltage_stabilizer
+T_opt
+!s110 1602507836
+V@99RHMadJzBS29`M[23jG2
+04 11 3 work testdivider sim 1
+=1-e0cb4e41f37e-5f84543b-2-1f14
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4;61
+R0
+Edivideby3fsm
+Z1 w1602122260
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dD:/altera/simulations/divideby3
+Z5 8D:/altera/projects/VHDL_study/divideby3.vhd
+Z6 FD:/altera/projects/VHDL_study/divideby3.vhd
+l0
+L3
+VK2INEC:[f6<QAD;NlD::z2
+!s100 UJBl@SNc[0]OO@>1<I:D]0
+Z7 OL;C;10.4;61
+33
+Z8 !s110 1602507554
+!i10b 1
+Z9 !s108 1602507554.260000
+Z10 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|D:/altera/projects/VHDL_study/divideby3.vhd|
+Z11 !s107 D:/altera/projects/VHDL_study/divideby3.vhd|
+!i113 0
+Z12 o-work work -2008 -explicit
+Z13 tExplicit 1
+Asynth
+R2
+R3
+DEx4 work 12 divideby3fsm 0 22 K2INEC:[f6<QAD;NlD::z2
+l13
+L10
+Vc<8NUdf8Km^AX>8=?U@DA1
+!s100 V:4nn11jY=NDEk<AMUQm<2
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Etestdivider
+Z14 w1602507824
+R2
+R3
+R4
+Z15 8D:/altera/simulations/divideby3/test_divider_3.vhd
+Z16 FD:/altera/simulations/divideby3/test_divider_3.vhd
+l0
+L3
+Vo<?>VEiNCL>fof0RP>:E@3
+!s100 aDml9LJ9BC1<Fd`GTRHT62
+R7
+32
+Z17 !s110 1602507861
+!i10b 1
+Z18 !s108 1602507861.284000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/simulations/divideby3/test_divider_3.vhd|
+Z20 !s107 D:/altera/simulations/divideby3/test_divider_3.vhd|
+!i113 0
+Z21 o-work work -2002 -explicit
+R13
+Asim
+R2
+R3
+Z22 DEx4 work 11 testdivider 0 22 o<?>VEiNCL>fof0RP>:E@3
+l14
+L6
+Z23 VQZY=b7kCL2:eGLVZk8Aj91
+Z24 !s100 ik2ImGShYeYkoeM>VAZ250
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R13

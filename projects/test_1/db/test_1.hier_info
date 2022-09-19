@@ -1,0 +1,19 @@
+|main_test_1
+pin_name => and_3:inst.x0
+pin_name1 => and_3:inst.x1
+pin_name2 => and_3:inst.x2
+
+
+|main_test_1|and_3:inst
+x0 => inst.IN0
+x1 => inst.IN1
+x2 => inst2.IN1
+
+
+|main_test_1|ex_4_3:inst3
+x[0] => y.IN0
+x[1] => y.IN1
+x[2] => y.IN1
+x[3] => y.IN1
+
+

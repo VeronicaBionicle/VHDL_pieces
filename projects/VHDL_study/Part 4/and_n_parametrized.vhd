@@ -1,0 +1,21 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+
+entity andN is
+  generic (N : integer := 8);
+  port (
+    a : in STD_LOGIC_VECTOR(N-1 downto 0);
+    y : out STD_LOGIC
+  );
+end andN;
+
+architecture synth of andN is
+  signal x: STD_LOGIC_VECTOR(N-1 downto 0);
+begin
+ --process (all) begin
+  x(0) <= a(0);
+  gen: for i in 1 to N-1 generate
+    x(i) <= a(i) and x(i-1);
+  end generate;
+  y <= x(N-1);
+ --end process;
+end synth; 

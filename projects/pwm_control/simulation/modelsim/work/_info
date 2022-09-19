@@ -1,0 +1,308 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/altera/projects/pwm_control/simulation/modelsim
+T_opt
+!s110 1608277079
+VlZE];KoCcL04<[[<O7>4C1
+04 14 8 work pwm_controller bdf_type 1
+=1-e0cb4e41f37e-5fdc5c57-2d5-1ad4
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.4;61
+R0
+T_opt1
+!s110 1608287914
+VP^9D[nPZ@18DYWIII;a@S0
+04 22 19 work pwm_controller_vhd_tst pwm_controller_arch 1
+=1-e0cb4e41f37e-5fdc86aa-80-1630
+R1
+n@_opt1
+R2
+Ecomparator
+Z3 w1608275043
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8D:/altera/projects/pwm_control/comparator.vhd
+Z7 FD:/altera/projects/pwm_control/comparator.vhd
+l0
+L42
+VHln<L=RNhRV?1Yk8hbUei1
+!s100 mEg:Io`czI4UbXfQG`cGS0
+Z8 OL;C;10.4;61
+32
+Z9 !s110 1608277332
+!i10b 1
+Z10 !s108 1608277332.885000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/projects/pwm_control/comparator.vhd|
+Z12 !s107 D:/altera/projects/pwm_control/comparator.vhd|
+!i113 0
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1
+Asyn
+R4
+R5
+DEx4 work 10 comparator 0 22 Hln<L=RNhRV?1Yk8hbUei1
+l71
+L52
+VZ8<nNnW46_c2Y6H?nPROf3
+!s100 PYB``0SjHY17715heCXdc3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Efrequency_block
+Z15 w1608274289
+Z16 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z17 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R4
+R5
+R0
+Z18 8D:/altera/projects/pwm_control/frequency_block.vhd
+Z19 FD:/altera/projects/pwm_control/frequency_block.vhd
+l0
+L6
+VhBEPbgE]=;9QOGZM7^LJ12
+!s100 OGd<U_Q4=<om_fel]V6Lh2
+R8
+32
+Z20 !s110 1608277335
+!i10b 1
+Z21 !s108 1608277335.265000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/projects/pwm_control/frequency_block.vhd|
+Z23 !s107 D:/altera/projects/pwm_control/frequency_block.vhd|
+!i113 0
+R13
+R14
+Abehaviroral
+R16
+R17
+R4
+R5
+DEx4 work 15 frequency_block 0 22 hBEPbgE]=;9QOGZM7^LJ12
+l20
+L16
+V^afADVT];YFW_9`8gSL]l2
+!s100 Zi>UR32RE3OlTc_hD]I1Q2
+R8
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 0
+R13
+R14
+Emeandr_counter
+Z24 w1608273978
+R4
+R5
+R0
+Z25 8D:/altera/projects/pwm_control/meandr_counter.vhd
+Z26 FD:/altera/projects/pwm_control/meandr_counter.vhd
+l0
+L42
+V5`cWEDKCaPkG6YCRlolSS0
+!s100 DVEN`VgK7SFRLza^R26573
+R8
+32
+Z27 !s110 1608277337
+!i10b 1
+Z28 !s108 1608277337.639000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/projects/pwm_control/meandr_counter.vhd|
+Z30 !s107 D:/altera/projects/pwm_control/meandr_counter.vhd|
+!i113 0
+R13
+R14
+Asyn
+R4
+R5
+DEx4 work 14 meandr_counter 0 22 5`cWEDKCaPkG6YCRlolSS0
+l74
+L53
+V^`5C2?ZVjb<<]zbfW6YhA2
+!s100 5gUUa4GX3KLfR]g93T?KK2
+R8
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 0
+R13
+R14
+Epwm_controller
+Z31 w1608287758
+R4
+R5
+R0
+Z32 8D:\altera\projects\pwm_control\pwm_controller.vhd
+Z33 FD:\altera\projects\pwm_control\pwm_controller.vhd
+l0
+L24
+Vb;C8?:^ic][oCfKU>Ve>o3
+!s100 L@NWLlLNMXXlW`b;hMIho0
+R8
+32
+Z34 !s110 1608287905
+!i10b 1
+Z35 !s108 1608287905.806000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:\altera\projects\pwm_control\pwm_controller.vhd|
+Z37 !s107 D:\altera\projects\pwm_control\pwm_controller.vhd|
+!i113 0
+R13
+R14
+Abdf_type
+R4
+R5
+DEx4 work 14 pwm_controller 0 22 b;C8?:^ic][oCfKU>Ve>o3
+l79
+L35
+V1QQEng=GRL7lVVKa<H_PI3
+!s100 :4^`W4>?a2619>m=k=F^U2
+R8
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 0
+R13
+R14
+Epwm_controller_vhd_tst
+Z38 w1608286656
+R4
+R5
+R0
+Z39 8D:/altera/projects/pwm_control/simulation/modelsim/pwm_controller_testbench.vht
+Z40 FD:/altera/projects/pwm_control/simulation/modelsim/pwm_controller_testbench.vht
+l0
+L30
+VF7KC<8MT:ciac1HEGOYeW2
+!s100 1@I`_fNVkMRWl>NEIZD`_0
+R8
+32
+Z41 !s110 1608286661
+!i10b 1
+Z42 !s108 1608286661.266000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/projects/pwm_control/simulation/modelsim/pwm_controller_testbench.vht|
+Z44 !s107 D:/altera/projects/pwm_control/simulation/modelsim/pwm_controller_testbench.vht|
+!i113 0
+R13
+R14
+Apwm_controller_arch
+R4
+R5
+DEx4 work 22 pwm_controller_vhd_tst 0 22 F7KC<8MT:ciac1HEGOYeW2
+l52
+L33
+VPbHjMB2?3V7i7S_MfGJ=@3
+!s100 <PneROd;Uj;>dki6=ITAL0
+R8
+32
+R41
+!i10b 1
+R42
+R43
+R44
+!i113 0
+R13
+R14
+Esawtooth
+Z45 w1608274499
+R4
+R5
+R0
+Z46 8D:/altera/projects/pwm_control/sawtooth.vhd
+Z47 FD:/altera/projects/pwm_control/sawtooth.vhd
+l0
+L42
+V^3kSnbJ;4_T;i=H=P?]PS2
+!s100 kG1eF6b<af0@kzfmlQm;a3
+R8
+32
+Z48 !s110 1608277339
+!i10b 1
+Z49 !s108 1608277339.346000
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/projects/pwm_control/sawtooth.vhd|
+Z51 !s107 D:/altera/projects/pwm_control/sawtooth.vhd|
+!i113 0
+R13
+R14
+Asyn
+R4
+R5
+DEx4 work 8 sawtooth 0 22 ^3kSnbJ;4_T;i=H=P?]PS2
+l72
+L52
+VE<0=OM93nKa5eThll;fDd3
+!s100 lB2AGjblk4`03UPCWJ3ln2
+R8
+32
+R48
+!i10b 1
+R49
+R50
+R51
+!i113 0
+R13
+R14
+Esawtooth_breaker
+Z52 w1608274724
+R16
+R17
+R4
+R5
+R0
+Z53 8D:/altera/projects/pwm_control/sawtooth_breaker.vhd
+Z54 FD:/altera/projects/pwm_control/sawtooth_breaker.vhd
+l0
+L6
+VEdA`2Ua14Y=eZ]TGL37aW3
+!s100 _5oTOF8]4L=7KQAg@S>e03
+R8
+32
+Z55 !s110 1608277341
+!i10b 1
+Z56 !s108 1608277341.465000
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/projects/pwm_control/sawtooth_breaker.vhd|
+Z58 !s107 D:/altera/projects/pwm_control/sawtooth_breaker.vhd|
+!i113 0
+R13
+R14
+Abehavioral
+R16
+R17
+R4
+R5
+DEx4 work 16 sawtooth_breaker 0 22 EdA`2Ua14Y=eZ]TGL37aW3
+l15
+L14
+V_JPIf2Y>nVRM=j[3d[fSX1
+!s100 ];JCgCn56I5A2LZJT4hOO0
+R8
+32
+R55
+!i10b 1
+R56
+R57
+R58
+!i113 0
+R13
+R14

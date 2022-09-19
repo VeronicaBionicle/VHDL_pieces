@@ -1,0 +1,30 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+Use ieee.std_logic_arith.all; 
+Use ieee.std_logic_unsigned.all; 
+
+ENTITY sawtooth_breaker IS
+	PORT
+	( 
+		count : in STD_LOGIC_VECTOR(15 downto 0);
+	   asynchroniusbreak: out  STD_LOGIC
+	);
+END sawtooth_breaker;
+
+ARCHITECTURE Behavioral OF sawtooth_breaker IS
+BEGIN
+process(count)
+variable count_int: integer;	
+begin
+
+count_int := conv_integer(count);
+if (count_int<1020) then
+asynchroniusbreak<='0';
+end if;
+
+if (count_int=1020) then
+asynchroniusbreak<='1';
+end if;
+
+end process;
+END Behavioral;

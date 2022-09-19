@@ -1,0 +1,70 @@
+Quartus II
+Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
+48
+4281
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+test
+# storage
+db|test.(0).cnf
+db|test.(0).cnf
+# case_insensitive
+# source_file
+test.bdf
+8ac0612bc4ca5173cdf3c8939383d71c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+and_2
+# storage
+db|test.(1).cnf
+db|test.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+and_2.vhd
+f72d65579777884705b8dca508a6929
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

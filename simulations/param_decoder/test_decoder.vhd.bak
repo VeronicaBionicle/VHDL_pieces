@@ -1,0 +1,30 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+
+entity test_decoder is
+end test_decoder;
+
+architecture sim of test_decoder is
+component decoder is
+  generic (N : integer := 3);
+  port (
+    a : in STD_LOGIC_VECTOR(N-1 downto 0);
+    y : out STD_LOGIC_VECTOR(2**N-1 downto 0)
+  );
+end component;
+  signal a: STD_LOGIC_VECTOR(3 downto 0);
+  signal y: STD_LOGIC_VECTOR(15 downto 0);
+begin
+  dut: decoder generic map (4) port map(a, y);
+--before start and waiting
+  process begin
+    a <= '0'; b <= '0'; cin <= '0'; wait for 10 ns;
+    a <= '0'; b <= '1'; cin <= '0'; wait for 10 ns;
+    a <= '1'; b <= '0'; cin <= '0'; wait for 10 ns;
+    a <= '1'; b <= '1'; cin <= '0'; wait for 10 ns;
+    a <= '0'; b <= '0'; cin <= '1'; wait for 10 ns;
+    a <= '0'; b <= '1'; cin <= '1'; wait for 10 ns;
+    a <= '1'; b <= '0'; cin <= '1'; wait for 10 ns;
+    a <= '1'; b <= '1'; cin <= '1'; wait for 10 ns;
+    wait;
+  end process;
+end sim;

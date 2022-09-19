@@ -1,0 +1,43 @@
+Quartus II
+Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
+48
+4283
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+decoder_hex_7
+# storage
+db|decoder_hex_7.(0).cnf
+db|decoder_hex_7.(0).cnf
+# case_insensitive
+# source_file
+decoder_hex_7.bdf
+2cf1ad44473bf0475f6e1c18f3cebb32
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

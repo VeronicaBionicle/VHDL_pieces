@@ -1,0 +1,34 @@
+|decoder_hex_7
+X3 => inst4.IN0
+X3 => inst9.IN0
+X3 => inst_5.IN1
+X3 => inst19.IN1
+X3 => inst18.IN0
+X3 => inst30.IN1
+X3 => inst40.IN0
+X2 => inst8.IN0
+X2 => inst2.IN1
+X2 => inst_8.IN0
+X2 => inst8sdd.IN1
+X2 => inst17.IN1
+X2 => inst28.IN0
+X2 => inst41.IN0
+X0 => inst.IN1
+X0 => inst6.IN0
+X0 => inst12.IN0
+X0 => inst30.IN0
+X0 => inst27.IN1
+X0 => inst32.IN1
+X0 => inst44.IN1
+X0 => inst47.IN1
+X1 => inst2.IN0
+X1 => inst5.IN0
+X1 => inst_8.IN1
+X1 => inst12.IN1
+X1 => inst14.IN1
+X1 => inst26.IN1
+X1 => inst25.IN1
+X1 => inst33.IN0
+X1 => inst40.IN2
+
+

@@ -1,0 +1,12 @@
+Fitter Status : Successful - Wed Oct 07 14:56:08 2020
+Quartus II Version : 11.0 Build 208 07/03/2011 SP 1 SJ Web Edition
+Revision Name : lab3
+Top-level Entity Name : lab3_v2
+Family : Cyclone
+Device : EP1C3T144C8
+Timing Models : Final
+Total logic elements : 89 / 2,910 ( 3 % )
+Total pins : 18 / 104 ( 17 % )
+Total virtual pins : 0
+Total memory bits : 0 / 59,904 ( 0 % )
+Total PLLs : 0 / 1 ( 0 % )

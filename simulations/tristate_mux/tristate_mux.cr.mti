@@ -1,0 +1,25 @@
+D:/altera/projects/VHDL_study/numbers_and_tristate.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none D:/altera/projects/VHDL_study/numbers_and_tristate.vhd
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tristate
+-- Compiling architecture synth of tristate
+
+} {} {}} D:/altera/projects/VHDL_study/tristate_mux2_component.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/altera/projects/VHDL_study/tristate_mux2_component.vhd
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2
+-- Compiling architecture synth of mux2
+
+} {} {}} D:/altera/simulations/tristate_mux/test_tristate_mux.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/altera/simulations/tristate_mux/test_tristate_mux.vhd
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity test_tristate_mux
+-- Compiling architecture sim of test_tristate_mux
+
+} {} {}}

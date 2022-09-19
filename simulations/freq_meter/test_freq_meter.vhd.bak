@@ -1,0 +1,31 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+
+entity test_freq_meter is
+end test_freq_meter;
+
+architecture sim of test_freq_meter is
+component lab4 is
+	port (
+		clk, freq : in STD_LOGIC;
+		khz_indicator: out std_logic_vector(6 downto 0);
+		hhz_indicator: out std_logic_vector(6 downto 0);
+    		unused_point: out std_logic := '1'
+	);
+end component;
+  signal clk, freq, unused_point: STD_LOGIC;
+  signal khz_indicator, hhz_indicator: STD_LOGIC_VECTOR(6 downto 0);
+begin
+  dut: lab4 port map(clk, freq, khz_indicator, hhz_indicator, unused_point);
+  -- generate clock
+  process begin
+    clk <= '1' after 10 ps;	-- 0.5 MHz / 2ns --50 Mhz / 2/100 ns =  
+    clk <= '0' after 10 ps;
+  end process;
+
+  -- generate test_freq
+  process begin
+    freq <= '1'; wait for 92600 ns;	-- 5.4 kHz
+    freq <= '0'; wait for 92600 ns;
+  end process;
+
+end sim;

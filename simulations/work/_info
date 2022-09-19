@@ -1,0 +1,146 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/modeltech64_10.4/examples
+T_opt
+!s110 1602426924
+V]T45mY<c=91946_E^=FcB1
+04 13 3 work testbenchauto sim 1
+=1-e0cb4e41f37e-5f83182c-344-16dc
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.4;61
+R0
+T_opt1
+!s110 1602427115
+V;lo]f?nWW8DW;i_Zj16_:3
+04 10 4 work testbench1 test 1
+=1-e0cb4e41f37e-5f8318ea-31d-870
+R1
+n@_opt1
+R2
+Esillyfunction
+Z3 w1602426354
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dD:/altera/simulations
+Z7 8D:/altera/simulations/silly_function.vhd
+Z8 FD:/altera/simulations/silly_function.vhd
+l0
+L3
+VhYzL3Gae`JJ_OX>R7U7i50
+!s100 M<RaT1kQFJnEMoZa<c_m42
+Z9 OL;C;10.4;61
+32
+Z10 !s110 1602426424
+!i10b 1
+Z11 !s108 1602426424.015000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/simulations/silly_function.vhd|
+Z13 !s107 D:/altera/simulations/silly_function.vhd|
+!i113 0
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1
+Afunct
+R4
+R5
+DEx4 work 13 sillyfunction 0 22 hYzL3Gae`JJ_OX>R7U7i50
+l11
+L10
+V:gjc8R4=jocEXM1>M]Lel2
+!s100 ZKPhhI=Fo^ko5_KXaDOU>3
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Etestbench1
+Z16 w1602341698
+R4
+R5
+R6
+Z17 8D:/altera/projects/VHDL_study/test_bench_1.vhd
+Z18 FD:/altera/projects/VHDL_study/test_bench_1.vhd
+l0
+L3
+VLNd6Y?^_nzE_BOC0OR2H[3
+!s100 MI7PGN[cKFE]J_ZM77MEo2
+R9
+32
+Z19 !s110 1602427101
+!i10b 1
+Z20 !s108 1602427101.521000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/projects/VHDL_study/test_bench_1.vhd|
+Z22 !s107 D:/altera/projects/VHDL_study/test_bench_1.vhd|
+!i113 0
+R14
+R15
+Atest
+R4
+R5
+DEx4 work 10 testbench1 0 22 LNd6Y?^_nzE_BOC0OR2H[3
+l14
+L6
+VNzA9^d9DBZe:204e>90[W2
+!s100 nOXI`Q1jQ;]^^BmPofQRk1
+R9
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 0
+R14
+R15
+Etestbenchauto
+Z23 w1602426907
+Z24 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R4
+R5
+R6
+Z25 8D:/altera/projects/VHDL_study/test_bench_automatic.vhd
+Z26 FD:/altera/projects/VHDL_study/test_bench_automatic.vhd
+l0
+L4
+VB[@egbLJFGmo5cD@:lYJe1
+!s100 LXImDRUSabE2`zzfjO68b0
+R9
+32
+Z27 !s110 1602426913
+!i10b 1
+Z28 !s108 1602426913.908000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/projects/VHDL_study/test_bench_automatic.vhd|
+Z30 !s107 D:/altera/projects/VHDL_study/test_bench_automatic.vhd|
+!i113 0
+R14
+R15
+Asim
+R24
+R4
+R5
+DEx4 work 13 testbenchauto 0 22 B[@egbLJFGmo5cD@:lYJe1
+l17
+L7
+VZF7d=EWDb_Yd5K5OCH@X30
+!s100 2Wded5Gcg^IL6UCiCgRNi3
+R9
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 0
+R14
+R15

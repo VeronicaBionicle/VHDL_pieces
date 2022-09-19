@@ -1,0 +1,174 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/altera/simulations/priority_choose
+T_opt
+!s110 1602513495
+VW1:PKL^hNm3^L0o81Qd2h1
+04 17 3 work test_tristate_mux sim 1
+=1-e0cb4e41f37e-5f846a57-34-1cc8
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4;61
+Emux2
+Z0 w1602033643
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dD:/altera/simulations/tristate_mux
+Z4 8D:/altera/projects/VHDL_study/tristate_mux2_component.vhd
+Z5 FD:/altera/projects/VHDL_study/tristate_mux2_component.vhd
+l0
+L3
+V0BBDlLWZMLa3]TZ>8PDmZ0
+!s100 T2hTgk97j`=9<O7_h=HK21
+Z6 OL;C;10.4;61
+32
+Z7 !s110 1602513314
+!i10b 1
+Z8 !s108 1602513314.686000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/projects/VHDL_study/tristate_mux2_component.vhd|
+Z10 !s107 D:/altera/projects/VHDL_study/tristate_mux2_component.vhd|
+!i113 0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1
+Asynth
+R1
+R2
+DEx4 work 4 mux2 0 22 0BBDlLWZMLa3]TZ>8PDmZ0
+l22
+L11
+VFe<0_I_fXGLaaM2YX<^je2
+!s100 UJ<9DnMZ^2I[3TJLk[NnI1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etest_tristate_mux
+Z13 w1602513484
+R1
+R2
+R3
+Z14 8D:/altera/simulations/tristate_mux/test_tristate_mux.vhd
+Z15 FD:/altera/simulations/tristate_mux/test_tristate_mux.vhd
+l0
+L3
+Vd]eDO5^7k;DmgiD1YlB8d1
+!s100 gNHFDoIMNeH0L7;<Ajhkg3
+R6
+32
+Z16 !s110 1602513487
+!i10b 1
+Z17 !s108 1602513487.025000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/simulations/tristate_mux/test_tristate_mux.vhd|
+Z19 !s107 D:/altera/simulations/tristate_mux/test_tristate_mux.vhd|
+!i113 0
+R11
+R12
+Asim
+R1
+R2
+DEx4 work 17 test_tristate_mux 0 22 d]eDO5^7k;DmgiD1YlB8d1
+l16
+L6
+V7^_d<k?7P?:^k@Q]:_7H43
+!s100 Vl=fU=NAk?2>PagS2e42f0
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R11
+R12
+Etestdivider
+Z20 w1602513448
+R1
+R2
+R3
+R14
+R15
+l0
+L3
+Vo<?>VEiNCL>fof0RP>:E@3
+!s100 aDml9LJ9BC1<Fd`GTRHT62
+R6
+32
+Z21 !s110 1602513453
+!i10b 1
+Z22 !s108 1602513453.145000
+R18
+R19
+!i113 0
+R11
+R12
+Asim
+R1
+R2
+DEx4 work 11 testdivider 0 22 o<?>VEiNCL>fof0RP>:E@3
+l16
+L6
+VzX`1PBGBma[<_3W;Va8^P1
+!s100 zmRmA1e4X0zOO79A?h>h;2
+R6
+32
+R21
+!i10b 1
+R22
+R18
+R19
+!i113 0
+R11
+R12
+Etristate
+Z23 w1602513289
+R1
+R2
+R3
+Z24 8D:/altera/projects/VHDL_study/numbers_and_tristate.vhd
+Z25 FD:/altera/projects/VHDL_study/numbers_and_tristate.vhd
+l0
+L15
+VShHJf>4<nc8X`06=_G11U3
+!s100 1;:hBj];ZT25nZ;ZeGzEd0
+R6
+33
+Z26 !s110 1602513306
+!i10b 1
+Z27 !s108 1602513306.458000
+Z28 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|D:/altera/projects/VHDL_study/numbers_and_tristate.vhd|
+Z29 !s107 D:/altera/projects/VHDL_study/numbers_and_tristate.vhd|
+!i113 0
+Z30 o-work work -2008 -explicit
+R12
+Asynth
+R1
+R2
+DEx4 work 8 tristate 0 22 ShHJf>4<nc8X`06=_G11U3
+l27
+L26
+V:5C@2m=PlhzemlbJN83KJ3
+!s100 _m6fGYnb;DWIL>WO4IIom1
+R6
+33
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 0
+R30
+R12

@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/altera/simulations/divideby3
+T_opt
+!s110 1602508814
+V?B;?i<GEJ09D9e49]4`793
+04 16 3 work testsynchronizer sim 1
+=1-e0cb4e41f37e-5f84580e-123-1d1c
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4;61
+Esynchro
+Z0 w1602508494
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dD:/altera/simulations/synchronizer
+Z4 8D:\altera\projects\VHDL_study\synchronizer.vhd
+Z5 FD:\altera\projects\VHDL_study\synchronizer.vhd
+l0
+L3
+V4SKcPT[bzLeWQDe?5izRQ3
+!s100 WY7Te^?m<G^>:eCc@LeF?1
+Z6 OL;C;10.4;61
+32
+Z7 !s110 1602508500
+!i10b 1
+Z8 !s108 1602508499.587000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:\altera\projects\VHDL_study\synchronizer.vhd|
+Z10 !s107 D:\altera\projects\VHDL_study\synchronizer.vhd|
+!i113 0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1
+Asynth
+R1
+R2
+DEx4 work 7 synchro 0 22 4SKcPT[bzLeWQDe?5izRQ3
+l13
+L11
+V:a27mH151Ai2cG0eN=MZf0
+!s100 NJn;FXb:28[I5CeKBc0]a1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etestsynchronizer
+Z13 w1602508797
+R1
+R2
+R3
+Z14 8D:/altera/simulations/synchronizer/test_synchronizer.vhd
+Z15 FD:/altera/simulations/synchronizer/test_synchronizer.vhd
+l0
+L3
+V?R6VaeAcI`Qi3YAeO[N9W1
+!s100 `3GBmfb;P6Xbe2XP@P;j[1
+R6
+32
+Z16 !s110 1602508799
+!i10b 1
+Z17 !s108 1602508799.623000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/simulations/synchronizer/test_synchronizer.vhd|
+Z19 !s107 D:/altera/simulations/synchronizer/test_synchronizer.vhd|
+!i113 0
+R11
+R12
+Asim
+R1
+R2
+DEx4 work 16 testsynchronizer 0 22 ?R6VaeAcI`Qi3YAeO[N9W1
+l16
+L6
+VCXBV2Dak?RCMe498Z==BJ2
+!s100 deVOmUD=B5XMi^?lLUX]P3
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R11
+R12

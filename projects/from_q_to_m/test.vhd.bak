@@ -1,0 +1,22 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all; 
+
+LIBRARY work;
+
+ENTITY test IS 
+	PORT
+	(
+		in_1 :  IN  STD_LOGIC;
+		in_2 :  IN  STD_LOGIC;
+		out_1 :  OUT  STD_LOGIC
+	);
+END test;
+
+ARCHITECTURE test_and OF test IS 
+BEGIN 
+
+
+out_1 <= in_1 AND in_2;
+
+
+END test_and;

@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/altera/simulations/mux_integet
+T_opt
+!s110 1602516907
+V8=;[<1@lU[VM^8mT>EN1?3
+04 15 3 work test_multiplier sim 1
+=1-e0cb4e41f37e-5f8477ab-1eb-1464
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4;61
+Emultiplier
+Z0 w1602123050
+Z1 DPx4 ieee 20 numeric_std_unsigned 0 22 jF^[l6kSe0l<k3W[UC=P83
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dD:/altera/simulations/integer_multiplier
+Z5 8D:/altera/projects/VHDL_study/multiplier_integer.vhd
+Z6 FD:/altera/projects/VHDL_study/multiplier_integer.vhd
+l0
+L4
+VRMGOQ6GF[2_ndgBim7ARO3
+!s100 2M?BI_379ABP7I8@ENhmU3
+Z7 OL;C;10.4;61
+32
+Z8 !s110 1602516870
+!i10b 1
+Z9 !s108 1602516870.405000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/projects/VHDL_study/multiplier_integer.vhd|
+Z11 !s107 D:/altera/projects/VHDL_study/multiplier_integer.vhd|
+!i113 0
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1
+Asynth
+R1
+R2
+R3
+DEx4 work 10 multiplier 0 22 RMGOQ6GF[2_ndgBim7ARO3
+l12
+L11
+VghSN]z?NgJK<nBRl4dDJY1
+!s100 WV]0=6j0l9CM7JWCCLEhz1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Etest_multiplier
+Z14 w1602516898
+R2
+R3
+R4
+Z15 8D:/altera/simulations/integer_multiplier/test_int_mult.vhd
+Z16 FD:/altera/simulations/integer_multiplier/test_int_mult.vhd
+l0
+L3
+V<NkRM=42]U?BNglFZbbbm3
+!s100 :PnfHThX>H>[gTS`F8YBL3
+R7
+32
+Z17 !s110 1602516899
+!i10b 1
+Z18 !s108 1602516899.834000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/simulations/integer_multiplier/test_int_mult.vhd|
+Z20 !s107 D:/altera/simulations/integer_multiplier/test_int_mult.vhd|
+!i113 0
+R12
+R13
+Asim
+R2
+R3
+DEx4 work 15 test_multiplier 0 22 <NkRM=42]U?BNglFZbbbm3
+l15
+L6
+VC7T5jJN?a8_PV>UzRGX]F1
+!s100 ]9z1U0ggn4Ii2NQ]Qi^`T2
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R12
+R13

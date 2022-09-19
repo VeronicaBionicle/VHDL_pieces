@@ -1,0 +1,19 @@
+|voltage_stabilizer
+clk => state~1.DATAIN
+reset => state~3.DATAIN
+bypass => nextstate.OUTPUTSELECT
+bypass => nextstate.OUTPUTSELECT
+bypass => nextstate.OUTPUTSELECT
+bypass => nextstate.OUTPUTSELECT
+bypass => process_1.IN1
+bypass => nextstate.OUTPUTSELECT
+bypass => nextstate.OUTPUTSELECT
+bypass => nextstate.OUTPUTSELECT
+bypass => nextstate.OUTPUTSELECT
+bypass => Selector3.IN4
+is_low => process_1.IN0
+is_low => process_1.IN0
+is_high => process_1.IN1
+is_high => process_1.IN1
+
+

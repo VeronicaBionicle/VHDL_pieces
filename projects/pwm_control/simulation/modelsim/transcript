@@ -1,0 +1,2 @@
+# Compile of pwm_controller.vhd was successful.
+vsim -gui +altera -l msim_transcript -do pwm_controller_run_msim_rtl_vhdl.do work.pwm_controller

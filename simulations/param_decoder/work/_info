@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/altera/simulations/fulladder
+T_opt
+!s110 1602556515
+V[RVg8YJ?W@5VNmZ;B]C;;2
+04 12 3 work test_decoder sim 1
+=1-e0cb4e41f37e-5f851263-214-14a4
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4;61
+Edecoder
+Z0 w1602126917
+Z1 DPx4 ieee 20 numeric_std_unsigned 0 22 jF^[l6kSe0l<k3W[UC=P83
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dD:/altera/simulations/param_decoder
+Z5 8D:/altera/projects/VHDL_study/decoder_parametrized.vhd
+Z6 FD:/altera/projects/VHDL_study/decoder_parametrized.vhd
+l0
+L4
+VEN8UZ5R[LI1baz<hoz0eM1
+!s100 BZkEd0lEPl43iWcTfY<I61
+Z7 OL;C;10.4;61
+33
+Z8 !s110 1602556261
+!i10b 1
+Z9 !s108 1602556261.462000
+Z10 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|D:/altera/projects/VHDL_study/decoder_parametrized.vhd|
+Z11 !s107 D:/altera/projects/VHDL_study/decoder_parametrized.vhd|
+!i113 0
+Z12 o-work work -2008 -explicit
+Z13 tExplicit 1
+Asynth
+R1
+R2
+R3
+DEx4 work 7 decoder 0 22 EN8UZ5R[LI1baz<hoz0eM1
+l13
+L12
+VLGoAi0WPoH?_QcLA9Dl_13
+!s100 G`a=j7;<XRi?9?HYPP@eh2
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Etest_decoder
+Z14 w1602556502
+R2
+R3
+R4
+Z15 8D:/altera/simulations/param_decoder/test_decoder.vhd
+Z16 FD:/altera/simulations/param_decoder/test_decoder.vhd
+l0
+L3
+VN34QT[OT77ngMI6T6l_632
+!s100 Rnife:>JYoIn<kze>a_MK3
+R7
+32
+Z17 !s110 1602556505
+!i10b 1
+Z18 !s108 1602556505.814000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/simulations/param_decoder/test_decoder.vhd|
+Z20 !s107 D:/altera/simulations/param_decoder/test_decoder.vhd|
+!i113 0
+Z21 o-work work -2002 -explicit
+R13
+Asim
+R2
+R3
+DEx4 work 12 test_decoder 0 22 N34QT[OT77ngMI6T6l_632
+l16
+L6
+V=Z2RocScS9lk9znXGLUNY2
+!s100 bZEJe]QAHiGkicS8UDmid0
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R13

@@ -1,0 +1,60 @@
+|lab2_1
+pin_name3 => lpm_counter0:inst11.clock
+
+
+|lab2_1|lpm_counter0:inst11
+clock => lpm_counter:LPM_COUNTER_component.clock
+
+
+|lab2_1|lpm_counter0:inst11|lpm_counter:LPM_COUNTER_component
+clock => cntr_meh:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+data[4] => ~NO_FANOUT~
+data[5] => ~NO_FANOUT~
+data[6] => ~NO_FANOUT~
+data[7] => ~NO_FANOUT~
+data[8] => ~NO_FANOUT~
+data[9] => ~NO_FANOUT~
+data[10] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+
+
+|lab2_1|lpm_counter0:inst11|lpm_counter:LPM_COUNTER_component|cntr_meh:auto_generated
+clock => counter_cella0.CLK
+clock => counter_cella1.CLK
+clock => counter_cella2.CLK
+clock => counter_cella3.CLK
+clock => counter_cella4.CLK
+clock => counter_cella5.CLK
+clock => counter_cella6.CLK
+clock => counter_cella7.CLK
+clock => counter_cella8.CLK
+clock => counter_cella9.CLK
+clock => counter_cella10.CLK
+
+
+|lab2_1|74193:inst
+CLR => 44.IN0
+LDN => 43.IN0
+B => 53.IN2
+A => 52.IN2
+DN => 90.IN0
+UP => 89.IN0
+C => 54.IN2
+D => 55.IN2
+
+

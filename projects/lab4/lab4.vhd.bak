@@ -1,0 +1,76 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_ARITH.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_unsigned.all;
+
+entity lab4 is 
+	port (
+		clk, freq : in STD_LOGIC;
+		khz_indicator: out std_logic_vector(6 downto 0);
+		hhz_indicator: out std_logic_vector(6 downto 0);
+		unused_point: out std_logic := '1'	
+	);
+end entity;
+
+architecture freq_meter of lab4 is
+	signal second_counter : std_logic_vector(35 downto 0) := (others => '0');	-- (34 downto 0) for 50 MHz
+	signal counter : integer range 0 to 9999 := 0;	
+	signal show_counter : std_logic := '0';
+	signal reset_counter : std_logic := '0';
+
+	function seven_segment_decode (number : integer) return std_logic_vector is
+		variable seven_segment_code: std_logic_vector(6 downto 0);
+		begin
+			 case (number) is
+					when 1 => seven_segment_code := b"0000001";
+					when 2 => seven_segment_code := b"0010010";
+					when 3 => seven_segment_code := b"0000011";
+					when 4 => seven_segment_code := b"0000100";
+					when 5 => seven_segment_code := b"0000101";
+					when 6 => seven_segment_code := b"0000110";
+					when 7 => seven_segment_code := b"0000111";
+					when 8 => seven_segment_code := b"0001000";
+					when 9 => seven_segment_code := b"0001001";
+					when others => seven_segment_code := b"0000000"; --0
+				end case;
+				return std_logic_vector(seven_segment_code);
+		end;
+
+begin
+	process (freq, reset_counter) begin
+		if reset_counter then
+			counter <= 0;
+		elsif (rising_edge(freq)) then
+			if (counter < 9999) then
+				counter <= counter + 1;
+			end if;
+		end if;
+	end process;
+	
+	process (clk) begin
+		if (rising_edge(clk)) then
+			second_counter  <= second_counter  + '1';
+                               --if (second_counter = b"0010_1111_1010_1111_0000_1000_0000") then	   -- 50 000 000 (100 ms for 0.5 MHz)
+			       --if (second_counter = b"1_1101_1100_1101_0110_0101_0000_0000") then	   -- 500 000 000 (1 s for 0.5 MHz)
+			  if (second_counter = b"1011_1010_0100_0011_1011_0111_0100_0000_0000") then	   -- 50 000 000 000 -> 1s for 50 MHz
+					second_counter <= (others => '0');
+					show_counter <= '1';
+					unused_point <= '1';
+				else
+					show_counter <= '0';
+					unused_point <= '0';
+				end if;	
+		end if;
+	end process;
+	
+	process (show_counter) begin
+		if (show_counter) then
+			khz_indicator <= seven_segment_decode(counter/1000);
+			hhz_indicator <= seven_segment_decode((counter rem 1000)/100);
+			reset_counter <= '1';
+                else
+		        reset_counter <= '0';
+		end if;
+	end process;
+end freq_meter;

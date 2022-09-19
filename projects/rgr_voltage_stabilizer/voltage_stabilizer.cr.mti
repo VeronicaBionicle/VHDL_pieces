@@ -1,0 +1,17 @@
+D:/altera/projects/rgr_voltage_stabilizer/test_stabilizer.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/altera/projects/rgr_voltage_stabilizer/test_stabilizer.vhd
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity voltage_stabilizer_testbench
+-- Compiling architecture test of voltage_stabilizer_testbench
+
+} {} {}} D:/altera/projects/rgr_voltage_stabilizer/voltage_stabilizer.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none {D:\altera\projects\rgr_voltage_stabilizer\voltage_stabilizer.vhd}
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity voltage_stabilizer
+-- Compiling architecture synth of voltage_stabilizer
+
+} {} {}}

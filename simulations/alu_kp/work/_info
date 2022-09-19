@@ -1,0 +1,159 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/altera/simulations/freq_meter
+T_opt
+!s110 1608184909
+V4zaVeG]6`6OK]>RW0EAA@0
+04 8 3 work test_alu sim 1
+=4-e0cb4e41f37e-5fdaf44d-ff-1b24
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.4;61
+R0
+T_opt1
+!s110 1605696428
+V=VmI5j5;d?]@@D3TUVkne0
+04 13 3 work testbenchauto sim 1
+=1-e0cb4e41f37e-5fb4fbab-2d8-1d20
+R1
+n@_opt1
+R2
+R0
+Ealu_kp
+Z3 w1608185162
+Z4 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z5 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z6 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z9 dD:/altera/simulations/alu_kp
+Z10 8D:/altera/projects/alu/alu_kp.vhd
+Z11 FD:/altera/projects/alu/alu_kp.vhd
+l0
+L6
+V7a8JM@cW0c=a27^NF3THa1
+!s100 n9P=hGFO^c`0n@AS8SLe;1
+Z12 OL;C;10.4;61
+33
+Z13 !s110 1608185219
+!i10b 1
+Z14 !s108 1608185219.654000
+Z15 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|D:/altera/projects/alu/alu_kp.vhd|
+Z16 !s107 D:/altera/projects/alu/alu_kp.vhd|
+!i113 0
+Z17 o-work work -2008 -explicit
+Z18 tExplicit 1
+Asynth
+R4
+R5
+R6
+R7
+R8
+DEx4 work 6 alu_kp 0 22 7a8JM@cW0c=a27^NF3THa1
+l25
+L15
+VoMT`C6cNeTm[YUoYGXk9I1
+!s100 eKz^G@MB>GN09:z0P=N0f0
+R12
+33
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Etest_alu
+Z19 w1608184897
+R7
+R8
+R9
+Z20 8D:\altera\simulations\alu_kp\alu_testbench.vhd
+Z21 FD:\altera\simulations\alu_kp\alu_testbench.vhd
+l0
+L3
+V^OGdT?DFbU70Cl[hF8kG<2
+!s100 VzdV^_U2`ZaQZZ5gf?8TD3
+R12
+32
+Z22 !s110 1608184900
+!i10b 1
+Z23 !s108 1608184900.849000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:\altera\simulations\alu_kp\alu_testbench.vhd|
+Z25 !s107 D:\altera\simulations\alu_kp\alu_testbench.vhd|
+!i113 0
+Z26 o-work work -2002 -explicit
+R18
+Asim
+R7
+R8
+DEx4 work 8 test_alu 0 22 ^OGdT?DFbU70Cl[hF8kG<2
+l19
+L6
+VFBkm=CH4UhD?:UVj;Lh[Z0
+!s100 gbJBT0[I4Q_^glNQ1OI4V1
+R12
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R26
+R18
+Etestbenchauto
+Z27 w1605701164
+R4
+R5
+R6
+Z28 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R7
+R8
+R9
+Z29 8D:\altera\simulations\alu_kp\alu_auto_test
+Z30 FD:\altera\simulations\alu_kp\alu_auto_test
+l0
+L7
+V4lgRA7aW>PI0O:QIRLczb0
+!s100 S^d?nZeG?;mXEz=con;673
+R12
+32
+Z31 !s110 1608193192
+!i10b 1
+Z32 !s108 1608193192.334000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:\altera\simulations\alu_kp\alu_auto_test|
+Z34 !s107 D:\altera\simulations\alu_kp\alu_auto_test|
+!i113 0
+R26
+R18
+Asim
+R4
+R5
+R6
+R28
+R7
+R8
+Z35 DEx4 work 13 testbenchauto 0 22 4lgRA7aW>PI0O:QIRLczb0
+l28
+L10
+V1P=z6g9djXEakXSY^nz9F1
+!s100 UGiENIS8X43gN5`UeHoj_2
+R12
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 0
+R26
+R18

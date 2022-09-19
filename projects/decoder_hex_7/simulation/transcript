@@ -1,0 +1,184 @@
+# Reading D:/modeltech64_10.4/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# OpenFile D:/altera/projects/decoder_hex_7/simulation/decoder_hex_7_test.mpf
+# Loading project decoder_hex_7_test
+vsim -gui work.decoder_hex_7
+# vsim -gui D:\altera\projects\decoder_hex_7\simulation\decoder_hex_7_test.mpf 
+# Start time: 20:40:16 on Feb 17,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.decoder_hex_7(bdf_type)#1
+add wave -position end  sim:/decoder_hex_7/X0
+add wave -position end  sim:/decoder_hex_7/X1
+add wave -position end  sim:/decoder_hex_7/X2
+add wave -position end  sim:/decoder_hex_7/X3
+add wave -position end  sim:/decoder_hex_7/a
+add wave -position end  sim:/decoder_hex_7/b
+add wave -position end  sim:/decoder_hex_7/c
+add wave -position end  sim:/decoder_hex_7/d
+add wave -position end  sim:/decoder_hex_7/e
+add wave -position end  sim:/decoder_hex_7/f
+add wave -position end  sim:/decoder_hex_7/g
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Veronica  Hostname: VERONICA-PC  ProcessID: 6296
+# 
+#           Attempting to use alternate WLF file "./wlft7ideid".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft7ideid
+# 
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+wave.do
+# couldn't execute ".\wave.do": no such file or directory
+# ** Note: (vish-4074) File D:/altera/projects/decoder_hex_7/simulation/vsim.wlf is still open, viewing file in live viewing mode.
+# 
+run
+add wave -position end  sim:/decoder_hex_7/X0
+add wave -position end  sim:/decoder_hex_7/X1
+add wave -position end  sim:/decoder_hex_7/X2
+add wave -position end  sim:/decoder_hex_7/X3
+add wave -position end  sim:/decoder_hex_7/a
+add wave -position end  sim:/decoder_hex_7/b
+add wave -position end  sim:/decoder_hex_7/c
+add wave -position end  sim:/decoder_hex_7/d
+add wave -position end  sim:/decoder_hex_7/e
+add wave -position end  sim:/decoder_hex_7/f
+add wave -position end  sim:/decoder_hex_7/g
+run
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+clocks.do
+# couldn't execute ".\clocks.do": no such file or directory
+D:\altera\projects\decoder_hex_7\simulation\clocks.do
+# invalid command name "D:lteraprojectsdecoder_hex_7simulationclocks.do"
+D:\altera\projects\decoder_hex_7\simulation\clocks.do
+# invalid command name "D:lteraprojectsdecoder_hex_7simulationclocks.do"
+D:/altera/projects/decoder_hex_7/simulation/clocks.do
+# couldn't execute "D:\altera\projects\decoder_hex_7\simulation\clocks.do": no such file or directory
+# Compile of decoder_hex_7.vhd was successful.
+# Load canceled
+orce sim:/decoder_hex_7/X0 0 0ns, 1 {10ns} -repeat 20ns;
+# invalid command name "orce"
+force sim:/decoder_hex_7/X1 0 0ns, 1 {20ns} -repeat 40ns;
+force sim:/decoder_hex_7/X2 0 0ns, 1 {40ns} -repeat 80ns;
+force sim:/decoder_hex_7/X3 0 0ns, 1 {80ns} -repeat 160ns;
+force sim:/decoder_hex_7/X0 0 0ns, 1 {10ns} -repeat 20ns;
+force sim:/decoder_hex_7/X1 0 0ns, 1 {20ns} -repeat 40ns;
+force sim:/decoder_hex_7/X2 0 0ns, 1 {40ns} -repeat 80ns;
+force sim:/decoder_hex_7/X3 0 0ns, 1 {80ns} -repeat 160ns;
+# Load canceled
+run
+# Causality operation skipped due to absence of debug database file
+force -freeze sim:/decoder_hex_7/X0 1 0 -cancel 10ns
+force -drive sim:/decoder_hex_7/X0 1 0 -cancel 10ns
+# Load canceled
+run
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+# Embedded redoStart found - 1
+run
+force sim:/decoder_hex_7/X0 0 0ns, 1 {10ns} -repeat 20ns;
+force sim:/decoder_hex_7/X1 0 0ns, 1 {20ns} -repeat 40ns;
+force sim:/decoder_hex_7/X2 0 0ns, 1 {40ns} -repeat 80ns;
+force sim:/decoder_hex_7/X3 0 0ns, 1 {80ns} -repeat 160ns;
+
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+force sim:/decoder_hex_7/X0 0 0ns, 1 {10ns} -repeat 20ns;
+force sim:/decoder_hex_7/X1 0 0ns, 1 {20ns} -repeat 40ns;
+force sim:/decoder_hex_7/X2 0 0ns, 1 {40ns} -repeat 80ns;
+force sim:/decoder_hex_7/X3 0 0ns, 1 {80ns} -repeat 160ns;
+
+run
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+force -freeze sim:/decoder_hex_7/X3 1 0 -cancel 10ns
+force -freeze sim:/decoder_hex_7/X2 0 0 -cancel 10ns
+run
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+force -freeze sim:/decoder_hex_7/X3 1 0, 0 {5 ns} -r 10ns -can 360ns
+run
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+force -freeze sim:/decoder_hex_7/X3 1 0, 0 {5 ns} -r 10ns -can 160ns
+force -freeze sim:/decoder_hex_7/X2 1 0, 0 {10 ns} -r 20ns -can 160ns
+force -freeze sim:/decoder_hex_7/X1 1 0, 0 {20 ns} -r 40ns -can 160ns
+force -freeze sim:/decoder_hex_7/X0 1 0, 0 {40 ns} -r 80ns -can 160ns
+run
+add wave -position 0  sim:/decoder_hex_7/X0
+add wave -position 0  sim:/decoder_hex_7/X1
+add wave -position 0  sim:/decoder_hex_7/X2
+add wave -position 0  sim:/decoder_hex_7/X3
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+force -freeze sim:/decoder_hex_7/X0 0 0, 1 {5 ns} -r 10ns -can 160ns
+force -freeze sim:/decoder_hex_7/X3 1 0, 0 {40 ns} -r 80ns -can 160ns
+force -freeze sim:/decoder_hex_7/X2 1 0, 0 {20 ns} -r 40ns -can 160ns
+force -freeze sim:/decoder_hex_7/X1 1 0, 0 {10 ns} -r 20ns -can 160ns
+force -freeze sim:/decoder_hex_7/X0 1 0, 0 {5 ns} -r 10ns -can 160ns
+run
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+force -freeze sim:/decoder_hex_7/X3 0 0, 1 {40 ns} -r 80ns -can 160ns
+force -freeze sim:/decoder_hex_7/X2 0 0, 1 {40 ns} -r 40ns -can 160ns
+force -freeze sim:/decoder_hex_7/X1 0 0, 1 {40 ns} -r 20ns -can 160ns
+# ** Error: (vsim-3464) Period of -repeat must not be less than the waveform length.
+# 
+force -freeze sim:/decoder_hex_7/X2 0 0, 1 {20 ns} -r 40ns -can 160ns
+force -freeze sim:/decoder_hex_7/X1 0 0, 1 {10 ns} -r 20ns -can 160ns
+force -freeze sim:/decoder_hex_7/X3 0 0, 1 {40 ns} -r 80ns -can 160ns
+force -freeze sim:/decoder_hex_7/X2 0 0, 1 {20 ns} -r 40ns -can 160ns
+force -freeze sim:/decoder_hex_7/X1 0 0, 1 {10 ns} -r 20ns -can 160ns
+force -freeze sim:/decoder_hex_7/X0 0 0, 1 {5 ns} -r 10ns -can 160ns
+run
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+force -freeze sim:/decoder_hex_7/X0 0 0, 1 {5 ns} -r 10ns -can 160ns;
+force -freeze sim:/decoder_hex_7/X1 0 0, 1 {10 ns} -r 20ns -can 160ns;
+force -freeze sim:/decoder_hex_7/X2 0 0, 1 {20 ns} -r 40ns -can 160ns;
+force -freeze sim:/decoder_hex_7/X3 0 0, 1 {40 ns} -r 80ns -can 160ns;
+
+run
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+run
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+force -freeze sim:/decoder_hex_7/X0 0 0, 1 {5 ns} -r 10ns -can 160ns;
+force -freeze sim:/decoder_hex_7/X1 0 0, 1 {10 ns} -r 20ns -can 160ns;
+force -freeze sim:/decoder_hex_7/X2 0 0, 1 {20 ns} -r 40ns -can 160ns;
+force -freeze sim:/decoder_hex_7/X3 0 0, 1 {40 ns} -r 80ns -can 160ns;
+
+run
+# End time: 23:34:28 on Feb 17,2021, Elapsed time: 2:54:12
+# Errors: 10, Warnings: 3

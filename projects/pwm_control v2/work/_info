@@ -1,0 +1,343 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/altera/projects/pwm_control/simulation/modelsim
+T_opt
+!s110 1608296242
+V@jz@WfjKz_]:_OT0EOoAS2
+04 20 3 work test_meander_counter sim 1
+=1-e0cb4e41f37e-5fdca731-ff-1ec8
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.4;61
+R0
+T_opt1
+!s110 1608298845
+V_<:]Sb]KiPloZ0@djoS<82
+04 11 5 work pwm_control synth 1
+=1-e0cb4e41f37e-5fdcb15d-2de-1300
+R1
+n@_opt1
+R2
+Ecomparator
+Z3 w1608296203
+Z4 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z5 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 dD:/altera/projects/pwm_control v2
+Z9 8D:/altera/projects/pwm_control v2/comparator.vhd
+Z10 FD:/altera/projects/pwm_control v2/comparator.vhd
+l0
+L5
+V941Eki`NMh9Z@z0gRF5_m0
+!s100 U<Ob]PAO5lY:FEBb_?e?M2
+Z11 OL;C;10.4;61
+33
+Z12 !s110 1608296227
+!i10b 1
+Z13 !s108 1608296227.394000
+Z14 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|D:/altera/projects/pwm_control v2/comparator.vhd|
+Z15 !s107 D:/altera/projects/pwm_control v2/comparator.vhd|
+!i113 0
+Z16 o-work work -2008 -explicit
+Z17 tExplicit 1
+Asyn
+R4
+R5
+R6
+R7
+DEx4 work 10 comparator 0 22 941Eki`NMh9Z@z0gRF5_m0
+l16
+L15
+V8h9j[6l^HT244e:FLGK1j1
+!s100 =JigESX`U;M3>iJ:M<bif1
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Efrequency_block
+Z18 w1608298822
+R5
+R4
+R6
+R7
+R8
+Z19 8D:\altera\projects\pwm_control v2\frequency_block.vhd
+Z20 FD:\altera\projects\pwm_control v2\frequency_block.vhd
+l0
+L6
+VjmKzPb6GA@XzYCMc8zU?N0
+!s100 _Foa0ACE5[mXbn7f6><Uo0
+R11
+32
+Z21 !s110 1608298825
+!i10b 1
+Z22 !s108 1608298825.605000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:\altera\projects\pwm_control v2\frequency_block.vhd|
+Z24 !s107 D:\altera\projects\pwm_control v2\frequency_block.vhd|
+!i113 0
+Z25 o-work work -2002 -explicit
+R17
+Abehaviroral
+R5
+R4
+R6
+R7
+DEx4 work 15 frequency_block 0 22 jmKzPb6GA@XzYCMc8zU?N0
+l20
+L16
+V6>=C>I<Ee[?BbCTFZ[H6:2
+!s100 M1_a0;I]4X;WCCBRWGk?=1
+R11
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R25
+R17
+Emeandr_counter
+Z26 w1608298811
+R5
+Z27 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R4
+R6
+R7
+R8
+Z28 8D:\altera\projects\pwm_control v2\meandr_counter.vhd
+Z29 FD:\altera\projects\pwm_control v2\meandr_counter.vhd
+l0
+L7
+V>noM^_B2=F1HNVKQBFGid1
+!s100 XH5AQ9KP6:9NTm:__kC1z2
+R11
+33
+Z30 !s110 1608298828
+!i10b 1
+Z31 !s108 1608298828.118000
+Z32 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|D:\altera\projects\pwm_control v2\meandr_counter.vhd|
+Z33 !s107 D:\altera\projects\pwm_control v2\meandr_counter.vhd|
+!i113 0
+R16
+R17
+Asyn
+R5
+R27
+R4
+R6
+R7
+DEx4 work 14 meandr_counter 0 22 >noM^_B2=F1HNVKQBFGid1
+l18
+L17
+VmcAPCYjBLU0Gg:LmhdHP>0
+!s100 <O6a`QQo^Bh8OG`K>hdTI1
+R11
+33
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 0
+R16
+R17
+Epwm_control
+Z34 w1608298798
+R6
+R7
+R8
+Z35 8D:/altera/projects/pwm_control v2/pwm_control.vhd
+Z36 FD:/altera/projects/pwm_control v2/pwm_control.vhd
+l0
+L3
+VeLe0S[OCJBBd@MI_nmW;]3
+!s100 JT2WTRikAe;YGHeLGh^J>2
+R11
+33
+Z37 !s110 1608298830
+!i10b 1
+Z38 !s108 1608298830.080000
+Z39 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|D:/altera/projects/pwm_control v2/pwm_control.vhd|
+Z40 !s107 D:/altera/projects/pwm_control v2/pwm_control.vhd|
+!i113 0
+R16
+R17
+Asynth
+R6
+R7
+DEx4 work 11 pwm_control 0 22 eLe0S[OCJBBd@MI_nmW;]3
+l44
+L11
+V[3BcnH=UPb=61dTPOMf_h1
+!s100 mm3zcTmBCZ1;;RZPZUkUZ0
+R11
+33
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 0
+R16
+R17
+Asim
+R6
+R7
+DEx4 work 11 pwm_control 0 22 BD4hgdKi:A9e]_YCDEUY:2
+l48
+L6
+VWT7[PSgbJ1_`R5JRHbaJg0
+!s100 V^dnb@^nW44OHl=AkCmz=1
+R11
+32
+!s110 1608296845
+!i10b 1
+!s108 1608296845.059000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/projects/pwm_control v2/pwm_control.vhd|
+R40
+!i113 0
+R25
+R17
+w1608296840
+Esawtooth
+Z41 w1608294419
+R5
+R27
+R4
+R6
+R7
+R8
+Z42 8D:/altera/projects/pwm_control v2/sawtooth.vhd
+Z43 FD:/altera/projects/pwm_control v2/sawtooth.vhd
+l0
+L8
+VNS2Ad8A8z3LIddiz@_OB10
+!s100 V5Mml<ICX4jB;AkVoJEmI1
+R11
+33
+Z44 !s110 1608294427
+!i10b 1
+Z45 !s108 1608294427.145000
+Z46 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|D:/altera/projects/pwm_control v2/sawtooth.vhd|
+Z47 !s107 D:/altera/projects/pwm_control v2/sawtooth.vhd|
+!i113 0
+R16
+R17
+Asyn
+R5
+R27
+R4
+R6
+R7
+DEx4 work 8 sawtooth 0 22 NS2Ad8A8z3LIddiz@_OB10
+l18
+L17
+V>YnM5QZm?5B]7W>EY5<1B1
+!s100 9=1f?13X:4RTl1_BeT?7Y1
+R11
+33
+R44
+!i10b 1
+R45
+R46
+R47
+!i113 0
+R16
+R17
+Esawtooth_breaker
+Z48 w1608293842
+R5
+R4
+R6
+R7
+R8
+Z49 8D:/altera/projects/pwm_control v2/sawtooth_breaker.vhd
+Z50 FD:/altera/projects/pwm_control v2/sawtooth_breaker.vhd
+l0
+L6
+VDgBI`IEze^;BSlhc?XNOF3
+!s100 >ZdU?Fo1hY8PdAiRzh7DV3
+R11
+32
+Z51 !s110 1608294282
+!i10b 1
+Z52 !s108 1608294282.812000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/projects/pwm_control v2/sawtooth_breaker.vhd|
+Z54 !s107 D:/altera/projects/pwm_control v2/sawtooth_breaker.vhd|
+!i113 0
+R25
+R17
+Abehavioral
+R5
+R4
+R6
+R7
+DEx4 work 16 sawtooth_breaker 0 22 DgBI`IEze^;BSlhc?XNOF3
+l15
+L14
+V?Sn=VX58m4W7LVdkaD8Hg1
+!s100 eKekJV>jOSGQC59kO5m2L0
+R11
+32
+R51
+!i10b 1
+R52
+R53
+R54
+!i113 0
+R25
+R17
+Etest_meander_counter
+Z55 w1608296452
+R6
+R7
+R8
+Z56 8D:\altera\projects\pwm_control v2\test_meander_counter.vhd
+Z57 FD:\altera\projects\pwm_control v2\test_meander_counter.vhd
+l0
+L3
+V@Sn2I8UdRSH0U2I]`DdH91
+!s100 ]V0W:hl7B3e][o`0WKZJf0
+R11
+32
+Z58 !s110 1608298832
+!i10b 1
+Z59 !s108 1608298832.260000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:\altera\projects\pwm_control v2\test_meander_counter.vhd|
+Z61 !s107 D:\altera\projects\pwm_control v2\test_meander_counter.vhd|
+!i113 0
+R25
+R17
+Asim
+R6
+R7
+DEx4 work 20 test_meander_counter 0 22 @Sn2I8UdRSH0U2I]`DdH91
+l48
+L6
+V@LlKCFY7V6>3[ALS;=TgW0
+!s100 9FM@jN:T3eXD<Rge?EZ[g1
+R11
+32
+R58
+!i10b 1
+R59
+R60
+R61
+!i113 0
+R25
+R17

@@ -1,0 +1,17 @@
+D:/altera/projects/VHDL_study/divideby3.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none D:/altera/projects/VHDL_study/divideby3.vhd
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity divideby3FSM
+-- Compiling architecture synth of divideby3FSM
+
+} {} {}} D:/altera/simulations/divideby3/test_divider_3.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/altera/simulations/divideby3/test_divider_3.vhd
+Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity testdivider
+-- Compiling architecture sim of testdivider
+
+} {} {}}

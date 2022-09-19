@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/altera/simulations/and_n_gen
+T_opt
+!s110 1602555599
+V_o317:14oN4?@?YS8>V?<3
+04 19 3 work test_comb_fulladder sim 1
+=1-e0cb4e41f37e-5f850ece-209-1258
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4;61
+Ecomb_fulladder
+Z0 w1602038064
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dD:/altera/simulations/fulladder
+Z4 8D:/altera/projects/VHDL_study/blocking_assigment_fulladder.vhd
+Z5 FD:/altera/projects/VHDL_study/blocking_assigment_fulladder.vhd
+l0
+L3
+VU[AhzC6PSCRF3S]`KF5dI0
+!s100 R`e<XiO>OJ]czL?zfVP4:1
+Z6 OL;C;10.4;61
+33
+!s110 1602555582
+!i10b 1
+Z7 !s108 1602555582.983000
+Z8 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|D:/altera/projects/VHDL_study/blocking_assigment_fulladder.vhd|
+Z9 !s107 D:/altera/projects/VHDL_study/blocking_assigment_fulladder.vhd|
+!i113 0
+Z10 o-work work -2008 -explicit
+Z11 tExplicit 1
+Asynth
+R1
+R2
+DEx4 work 14 comb_fulladder 0 22 U[AhzC6PSCRF3S]`KF5dI0
+l11
+L10
+VB5AzmDk=oCo4cmN8MCBk;2
+!s100 8Q>OW28M@nemQ9gDM:1D63
+R6
+33
+!s110 1602555583
+!i10b 1
+R7
+R8
+R9
+!i113 0
+R10
+R11
+Etest_comb_fulladder
+Z12 w1602555552
+R1
+R2
+R3
+Z13 8D:/altera/simulations/fulladder/test_fulladder.vhd
+Z14 FD:/altera/simulations/fulladder/test_fulladder.vhd
+l0
+L3
+VCAA1lF@`M3VkL?8zF[Z_Z2
+!s100 4lScIWZ@cnL^]aPk6TU[E0
+R6
+32
+Z15 !s110 1602555588
+!i10b 1
+Z16 !s108 1602555588.710000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/simulations/fulladder/test_fulladder.vhd|
+Z18 !s107 D:/altera/simulations/fulladder/test_fulladder.vhd|
+!i113 0
+Z19 o-work work -2002 -explicit
+R11
+Asim
+R1
+R2
+DEx4 work 19 test_comb_fulladder 0 22 CAA1lF@`M3VkL?8zF[Z_Z2
+l14
+L6
+VV@bzz^EMn5?ia865?l<ed0
+!s100 gY1JN?8:OQo8m0VB3_;UN1
+R6
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R19
+R11

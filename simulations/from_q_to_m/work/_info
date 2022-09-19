@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/altera/simulations/alu_kp
+Etest
+Z0 w1608269230
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dD:/altera/simulations/from_q_to_m
+Z4 8D:/altera/projects/from_q_to_m/test.vhd
+Z5 FD:/altera/projects/from_q_to_m/test.vhd
+l0
+L6
+VM67T_]RfO=FcZc0nM?P6c1
+!s100 hmgKW3C2mEIf39?W17>IT3
+Z6 OL;C;10.4;61
+32
+Z7 !s110 1608269238
+!i10b 1
+Z8 !s108 1608269238.790000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/projects/from_q_to_m/test.vhd|
+Z10 !s107 D:/altera/projects/from_q_to_m/test.vhd|
+!i113 0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1
+Atest_and
+R1
+R2
+DEx4 work 4 test 0 22 M67T_]RfO=FcZc0nM?P6c1
+l16
+L15
+V8GM9A>0h0BLMcGllT=0;91
+!s100 m5`0`lF8AA^gP:zXLD1Ja3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etest_vhd_tst
+Z13 w1608270906
+R1
+R2
+R3
+Z14 8D:/altera/projects/from_q_to_m/simulation/modelsim/test.vht
+Z15 FD:/altera/projects/from_q_to_m/simulation/modelsim/test.vht
+l0
+L30
+Ve;a6nY41EG7j]U5HZ1`C31
+!s100 a<1`Wz3hHCG0<l=F:7cDb0
+R6
+32
+Z16 !s110 1608270981
+!i10b 1
+Z17 !s108 1608270980.906000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/altera/projects/from_q_to_m/simulation/modelsim/test.vht|
+Z19 !s107 D:/altera/projects/from_q_to_m/simulation/modelsim/test.vht|
+!i113 0
+R11
+R12
+Atest_arch
+R1
+R2
+DEx4 work 12 test_vhd_tst 0 22 e;a6nY41EG7j]U5HZ1`C31
+l45
+L32
+Vc6liE1mQgf`P_CV08ED5;2
+!s100 M`?:Yl_EOmdSk88hkC]Ni1
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R11
+R12
